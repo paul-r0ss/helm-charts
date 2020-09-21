@@ -95,7 +95,7 @@ configValidator:
 
 # nodeSelectors is a list of strings in the form of label=value describing
 # on which nodes to run the Forseti on-GKE pods.
-nodeSelectors: []
+nodeSelectors: [cloud.google.com/gke-nodepool=pool-1]
 
 # production sets whether or not to deploy in a production configuration.
 production: false
